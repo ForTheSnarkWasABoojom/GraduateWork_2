@@ -4,7 +4,7 @@ This repository contains my final term paper for the Master's program "Internet 
 Program text:
 
 
-
+````
 int motorPins[] = {3, 5, 6, 9, 10, 11};
 const int numMotors = 6;
 const int symbolDuration = 800;  // Время активации буквы (мс)
@@ -83,3 +83,4 @@ void activateLetter(BrailleLetter letter) {
   }
   delay(letterPause);
 }
+````
